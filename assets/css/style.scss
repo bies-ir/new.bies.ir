@@ -1,1 +1,9 @@
 @import "jekyll-theme-time-machine";
+
+* {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
