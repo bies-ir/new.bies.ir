@@ -2,3 +2,4 @@ theme: jekyll-theme-time-machine
 timezone: Asia/Tehran
 lang: fa-IR
 title: 'تازه‌کارا'
+google_analytics: false
