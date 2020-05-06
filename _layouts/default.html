@@ -34,13 +34,13 @@
     
     .plainlist { list-style-type: none; }
 
-    #background {
-      position: fixed;
-      z-index: -9999;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+    .background {
+      /*position: fixed;*/
+      /*z-index: -9999;*/
+      /*top: 0;*/
+      /*left: 0;*/
+      /*width: 100%;*/
+      /*height: 100%;*/
       background-image: url(../assets/img/background.png);
       background-position: center center;
       background-size: cover;
@@ -59,10 +59,7 @@
 
 </head>
 
-<body dir="rtl" style="direction: rtl;">
-
-  <div id="background"></div>
-
+<body class="background" dir="rtl" style="direction: rtl;">
   <div class="wrapper">
     <header>
       <h1 class="title nofontstyle">{{ site.title | default: site.github.repository_name }}</h1>
